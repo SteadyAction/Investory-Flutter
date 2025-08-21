@@ -15,7 +15,6 @@ class SplashModule extends StatefulWidget {
 }
 
 class SplashModuleInputData {
-  String? text;
 
-  SplashModuleInputData({this.text});
+  SplashModuleInputData();
 }

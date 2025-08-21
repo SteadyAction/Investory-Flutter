@@ -8,11 +8,8 @@ import 'package:investory/service/build_service.dart';
 import 'package:investory/service/log_service.dart';
 
 class SplashInteractor extends Interactor<SplashPresenter> {
-
-  String text;
   
-  SplashInteractor(super.presenter, SplashModuleInputData inputData)
-    : text = inputData.text ?? "Default Text";
+  SplashInteractor(super.presenter, SplashModuleInputData inputData);
 
   @override
   void stateInitializedWithFrame(BuildContext context) {

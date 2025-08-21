@@ -12,13 +12,15 @@ class AppColor {
   static const quinaryText_50 = Color.fromRGBO(97, 97, 97, 0.5);
   static const warningText = Color.fromRGBO(206, 60, 104, 1);
   static const warningText_70 = Color.fromRGBO(206, 60, 104, 0.7);
+  static const buttonText = Color.fromRGBO(10, 10, 10, 1);
 
   static const behindBackground = Color.fromRGBO(12, 10, 22, 1);
-  static const primaryBackground = Color.fromRGBO(20, 20, 21, 1);
+  static const primaryBackground = Color.fromRGBO(20, 20, 24, 1);
   static const secondaryBackground = Color.fromRGBO(35, 35, 36, 1);
   static const tertiaryBackground = Color.fromRGBO(46, 46, 47, 1);
   static const quaternaryBackground = Color.fromRGBO(57, 57, 58, 1);
   static const quinaryBackground = Color.fromRGBO(68, 68, 69, 1);
+  static const senaryBackground = Color.fromRGBO(79, 79, 80, 1);
   static const warningBackground = Color.fromRGBO(218, 55, 104, 1);
   
   static const primarySeparator = Color.fromRGBO(67, 64, 69, 1);
@@ -28,7 +30,7 @@ class AppColor {
   static const quinarySeparator = Color.fromRGBO(37, 35, 40, 1);
 
   static const switchEnabledThumb = Color.fromRGBO(240, 240, 240, 1);
-  static const switchEnabledTrack = soulPink;
+  static const switchEnabledTrack = blue3;
   static const switchDisabledThumb = Color.fromRGBO(154, 154, 154, 1);
   static const switchDisabledTrack = Color.fromRGBO(78, 78, 78, 1);
 
@@ -41,27 +43,20 @@ class AppColor {
   static const backgroundDim = Color.fromRGBO(0, 0, 0, 0.5);
   static const backgroundDim_10 = Color.fromRGBO(0, 0, 0, 0.1);
 
-  static const soulPinkDark = Color.fromRGBO(190, 5, 60, 1);
-  static const soulPink = Color.fromRGBO(215, 10, 70, 1);
-  static const soulPink_10 = Color.fromRGBO(215, 10, 70, 0.1);
-  static const soulPink2 = Color.fromRGBO(225, 15, 75, 1);
-  static const soulPink3 = Color.fromRGBO(235, 20, 80, 1);
-  static const soulOrange = Color.fromRGBO(240, 58, 8, 1);
-  static const soulOrange2 = Color.fromRGBO(255, 110, 32, 1);
-  static const soulOrange3 = Color.fromRGBO(255, 110, 32, 0.5);
-  static const soulGreen = Color.fromRGBO(7, 210, 129, 1);
-  static const soulBlue = Color.fromRGBO(29, 67, 203, 1);
-  static const soulPurple = Color.fromRGBO(103, 1, 255, 1);
-  static const soulPurple2 = Color.fromRGBO(115, 12, 218, 1);
-  static const soulYellow = Color.fromRGBO(255, 131, 62, 1);
-  static const soulYellow2 = Color.fromRGBO(247, 193, 58, 1);
-  static const soulYellow3 = Color.fromRGBO(255, 203, 72, 1);
-  static const soulYellow4 = Color.fromRGBO(239, 210, 138, 1);
+  static const blue3 = Color.fromARGB(255, 72, 15, 229);
+  static const blue5 =Color.fromARGB(255, 57, 63, 250);
 
-  static const grey1 = Color.fromRGBO(125, 127, 129, 1.0); // fix
+  static const yellow3 = Color.fromRGBO(245, 168, 24, 1);
+  static const yellow5 =Color.fromARGB(255, 57, 63, 250);
+
   static const grey10 = Color.fromRGBO(10, 10, 10, 1.0);
   static const grey30 = Color.fromRGBO(30, 30, 30, 1.0);
   static const grey50 = Color.fromRGBO(50, 50, 50, 1.0);
+
+  static const white50 = Color.fromRGBO(255, 255, 255, 1.0);
+  static const white40 = Color.fromRGBO(245, 245, 245, 1.0);
+  static const white20 = Color.fromRGBO(225, 225, 225, 1.0);
+  static const white10 = Color.fromRGBO(215, 215, 215, 1.0);
 
   static const keyboardToolBackground = Color.fromRGBO(34, 34, 41, 1.0);
 

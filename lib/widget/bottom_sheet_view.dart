@@ -40,7 +40,7 @@ class BottomSheetView extends StatelessWidget {
                   width:  double.infinity,
                   margin: const EdgeInsets.only(top: 30, bottom: 15, left: 15, right: 15),
                   child: CupertinoButton(
-                    color: AppColor.soulPink,
+                    color: AppColor.blue3,
                     borderRadius: const BorderRadius.all(Radius.circular(35)),  
                     child: Text("Confirm", style: const TextStyle(color: AppColor.primaryText, fontSize: 14, fontWeight: FontWeight.w600).withDefault),
                     onPressed: () { 

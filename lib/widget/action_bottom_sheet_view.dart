@@ -57,7 +57,7 @@ class ActionBottomSheetView extends StatelessWidget {
                   width: 30,
                   child: ImageIcon(
                     item.image, 
-                    color: item.isSelected ? AppColor.soulPink : AppColor.primaryText,
+                    color: item.isSelected ? AppColor.blue3 : AppColor.primaryText,
                     size: item.imageSize
                   ))
                 ),
@@ -66,7 +66,7 @@ class ActionBottomSheetView extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 14, 
                   fontWeight: item.isSelected ? FontWeight.w600 : FontWeight.w500, 
-                  color: item.isSelected ? AppColor.soulPink : AppColor.primaryText
+                  color: item.isSelected ? AppColor.blue3 : AppColor.primaryText
                 ).withDefault
               ),
             ])
