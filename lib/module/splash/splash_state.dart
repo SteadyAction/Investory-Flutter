@@ -21,7 +21,7 @@ class SplashState extends ModuleState<SplashModule, SplashInteractor> {
         bottom: true,
         child: Column(
           children: [
-            Text(interactor.text, style: TextStyle(color: AppColor.primaryText))
+            
           ]
         )
       )
