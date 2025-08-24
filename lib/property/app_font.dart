@@ -1,4 +1,4 @@
 class AppFont {
-  static const zillaSlab = "ZillaSlab";
+  static const sourceSerif4 = "SourceSerif4";
   static const inter = "Inter";
 }

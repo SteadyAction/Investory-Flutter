@@ -26,7 +26,7 @@ class SplashInteractor extends Interactor<SplashPresenter> {
       }
 
       if (AuthService.instance.isSignedIn.not) {
-        await AuthService.instance.anonymouslySignIn();
+        await AuthService.instance.anonymouslySignIn(); // todo: remove anonymous sign in
       }
 
       final uid = AuthService.instance.currentUser?.uid;

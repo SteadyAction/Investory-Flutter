@@ -15,8 +15,8 @@ class AppColor {
   static const buttonText = Color.fromRGBO(10, 10, 10, 1);
 
   static const behindBackground = Color.fromRGBO(12, 10, 22, 1);
-  static const primaryBackground = Color.fromRGBO(20, 20, 24, 1);
-  static const secondaryBackground = Color.fromRGBO(35, 35, 36, 1);
+  static const primaryBackground = Color.fromRGBO(19, 21, 25, 1);
+  static const secondaryBackground = Color.fromRGBO(26, 29, 34, 1);
   static const tertiaryBackground = Color.fromRGBO(46, 46, 47, 1);
   static const quaternaryBackground = Color.fromRGBO(57, 57, 58, 1);
   static const quinaryBackground = Color.fromRGBO(68, 68, 69, 1);
@@ -43,8 +43,8 @@ class AppColor {
   static const backgroundDim = Color.fromRGBO(0, 0, 0, 0.5);
   static const backgroundDim_10 = Color.fromRGBO(0, 0, 0, 0.1);
 
-  static const blue3 = Color.fromARGB(255, 72, 15, 229);
-  static const blue5 =Color.fromARGB(255, 57, 63, 250);
+  static const blue3 = Color.fromARGB(255, 52, 52, 255);
+  static const blue5 =Color.fromARGB(255, 30, 85, 230);
 
   static const yellow3 = Color.fromRGBO(245, 168, 24, 1);
   static const yellow5 =Color.fromARGB(255, 57, 63, 250);

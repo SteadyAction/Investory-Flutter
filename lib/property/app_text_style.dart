@@ -10,6 +10,7 @@ class AppTextStyle extends TextStyle {
       color: AppColor.primaryText,
       fontSize: 16, 
       fontWeight: FontWeight.w600,
+      fontFamily: AppFont.inter
     ).withDefault;
   }
 
@@ -24,9 +25,9 @@ class AppTextStyle extends TextStyle {
   static TextStyle get header {
     return const TextStyle(
       color: AppColor.primaryText,
-      fontSize: 30, 
+      fontSize: 35, 
       fontWeight: FontWeight.w700,
-      fontFamily: AppFont.zillaSlab
+      fontFamily: AppFont.sourceSerif4
     ).withDefault;
   }
 

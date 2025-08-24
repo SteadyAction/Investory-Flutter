@@ -95,14 +95,16 @@ class MainState extends ModuleState<MainModule, MainInteractor> with WidgetsBind
 
   List<BottomNavigationBarItem> menus() {
     var list = [
-      const BottomNavigationBarItem(icon: 
-        Padding(
+      const BottomNavigationBarItem(
+        label: "Journal",
+        icon: Padding(
           padding: EdgeInsets.only(left: 8, right: 8, bottom: 0),
           child: ImageIcon(AssetImage("assets/images/checklist.png"), size: 26),
         ),
       ),
-      const BottomNavigationBarItem(icon: 
-        Padding(
+      const BottomNavigationBarItem(
+        label: "Settings",
+        icon: Padding(
           padding: EdgeInsets.only(left: 8, right: 8),
           child: ImageIcon(AssetImage("assets/images/person.png"), size: 22),
         ),
